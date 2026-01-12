@@ -7,3 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello KK FUNDA!"
+        uses: actions/checkout@v4
+
+      - run: cat siva
+
