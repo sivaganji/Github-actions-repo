@@ -1,0 +1,9 @@
+name: KK FUNDA Demo Workflow
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello KK FUNDA!"
